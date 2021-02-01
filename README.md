@@ -94,7 +94,10 @@ At last, the generated ply ojbect is in the 'datasets/YOUR_DATA_NAME/scene/integ
 Ubuntu 16.04 seems to have problem use MeshLab.
 Tested on Mac OS. 
 
-** The integraed mesh object is as follows**
+** The integraed mesh object is as follow**
 A .ply object is avaiable at [Google Drive]()
-<img src="imgs/">
+<img src="imgs/open3d_integrated.png">
 
+** A comparison is made between integrated (colored) and ground truth (gray) as below**
+<img src="imgs/integrate_com1.png">
+<img src="imgs/integrate_com2.png">
