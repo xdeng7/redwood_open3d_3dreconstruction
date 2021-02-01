@@ -57,11 +57,7 @@ cd Open3D/examples/python/reconstruction_system
 python run_system.py datasets/config.json --make
 ```
 **Generated images from the converted pretrained FFHQ weight**
-<img
-src=“imgs/SScreenshot _2021-01-31_16-44-35.png”
-raw=true
-style=“margin-right: 10px;”
-/>
+<img src="imgs/Screenshot _2021-01-31_16-44-35.png">
 
 **Generated images from the converted pretrained FFHQ weight**
 
