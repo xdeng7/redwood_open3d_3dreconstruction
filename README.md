@@ -44,7 +44,7 @@ For exmaple, my data dir is
 
 Under the data folder, the depth and rgb data should placed into two different folders. 
 
-***Please download config.json available at [Google Drive]()***
+***Please download config.json available at [Google Drive](https://drive.google.com/file/d/1kFJJVxYhHgTuV3KhKN3c-8CGmWQ26CrM/view?usp=sharing)***
 
 ***!! Modify line 3 in config.json with your dataset folder name.***
 
