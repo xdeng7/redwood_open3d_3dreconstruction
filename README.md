@@ -69,7 +69,8 @@ python run_system.py datasets/config.json --register
 # 3) refine fragements
 python run_system.py datasets/config.json --refine
 ```
-![image](imgs/Screenshot_2021-01-31_16-39-33.png)
+
+![image](imgs/Screenshot _2021-01-31_16-39-33.png)
 
 
 ```bash
