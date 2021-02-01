@@ -10,3 +10,17 @@ This is implemented by using the open-sourced tools [Open3D](http://www.open3d.o
 * Python 3.6
 * OpenCV
 * Open3D 0.9.0 (not support 0.9.0+)
+
+## Python quick start
+
+```bash
+# Clone the project to local machine
+$ git clone 
+
+# Install Open3D stable release with Conda
+$ conda install -c open3d-admin -c conda-forge open3d
+
+# Test the installation
+$ python -c "import open3d as o3d; print(o3d)"
+
+```
