@@ -36,6 +36,7 @@ For exmaple, my data dir is '/home/xdeng7/Open3D/examples/python/reconstruction_
 Under the data folder, the depth and rgb data should placed into two different folders. 
 
 ***Please download config.json available at [Google Drive]()***
+
 ***!! Modify line 3 in config.json with your dataset folder name.***
 
 Please follow the directory structure as follows:
@@ -44,7 +45,8 @@ Please follow the directory structure as follows:
 ```   
 ├── reconstruction_system
 
-├── ├── datasets                                                                                                                                                                                                   
+├── ├── datasets                                                                                                                                                                          
+
 │   │   ├── redwood_0036                                                                                                 
 │   │   │   └── depth   # depth data                                                                                                                           
 │   │   │   └── rgb     # rgb data        
@@ -102,12 +104,12 @@ At last, the generated 3d ojbect is in the 'datasets/YOUR_DATA_NAME/scene/integr
 ## Visualize 3D objects
 [MeshLab](https://www.meshlab.net/#download) is suggested to view the 3D object. 
 
-Ubuntu 16.04 seems to have problem use MeshLab.
+Ubuntu 16.04 seems to have problem using MeshLab.
 
 Tested on Mac OS. 
 
 
-The generated 3D object ((integrated.ply)) and ground truth (0036.ply) are avaiable at [Google Drive](https://drive.google.com/drive/folders/1AIL9V-8edG8u4jDeRic_aD79XrX9mS9U?usp=sharing)
+The generated 3D object (integrated.ply) and ground truth (0036.ply) are avaiable at [Google Drive](https://drive.google.com/drive/folders/1AIL9V-8edG8u4jDeRic_aD79XrX9mS9U?usp=sharing)
 
 **The integraed mesh object viewed in different perspectives is as follow**
 
