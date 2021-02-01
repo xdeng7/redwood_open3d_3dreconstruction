@@ -26,24 +26,32 @@ $ conda install -c conda-forge opencv
 ```
 ## Download data
 Any RGB-D dataset should work. In this repo, the open-sourced dataset Redwood is used.
+
 Data can be download at (http://redwood-data.org/3dscan/dataset.html).
+
 Unzip the .zip file, and put the data under the folder 'ROOT_DIR/Open3D/examples/python/reconstruction_system/datasets/YOUR_DATA_FOLDER'
 
 For exmaple, my data dir is '/home/xdeng7/Open3D/examples/python/reconstruction_system/datasets/redwood_0036'
 
 Under the data folder, the depth and rgb data should placed into two different folders. 
-Please download config.json available at [Google Drive]()
+
+***Please download config.json available at [Google Drive]()***
+***!! Modify line 3 in config.json with your dataset folder name.***
+
 Please follow the directory structure as follows:
 
-```                                                                                         
-├── datasets                                                                                                                                                                                                   
-│   ├── redwood_0036                                                                                                 
-│   │   └── depth   # depth data                                                                                                                           
-│   │   └── rgb     # rgb data        
-|   |   └── config.json  # experimental hyperparameters
-|   |   └── ...
-|   ├── ...
 
+```   
+├── reconstruction_system
+
+├── ├── datasets                                                                                                                                                                                                   
+│   │   ├── redwood_0036                                                                                                 
+│   │   │   └── depth   # depth data                                                                                                                           
+│   │   │   └── rgb     # rgb data        
+│   |   |   └── config.json  # experimental hyperparameters
+│   |   |   └── ...
+│   |   ├── ...
+├── ...
 ```
 
 ## Quick start
