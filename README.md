@@ -11,16 +11,16 @@ This is implemented by using the open-sourced tools [Open3D](http://www.open3d.o
 * OpenCV
 * Open3D 0.9.0 (not support 0.9.0+)
 
-## Python quick start
+## Set up environment
 
 ```bash
 # Clone the project to local machine
-$ git clone 
+$ git clone https://github.com/xdeng7/redwood_open3d_3dreconstruction.git
 
-# Install Open3D stable release with Conda
-$ conda install -c open3d-admin -c conda-forge open3d
-
-# Test the installation
-$ python -c "import open3d as o3d; print(o3d)"
+# Set up dependency, need to install Anaconda first
+$ sh requirements/install.sh
 
 ```
+## Download data
+Any RGB-D dataset should work. In this repo, the open-sourced dataset Redwood is used.
+Data can be download at (http://redwood-data.org/3dscan/dataset.html).
