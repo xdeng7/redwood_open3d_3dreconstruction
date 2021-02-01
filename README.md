@@ -56,9 +56,11 @@ cd Open3D/examples/python/reconstruction_system
 # 1) create fragements
 python run_system.py datasets/config.json --make
 ```
-hello
-![img_make](imgs/SScreenshot _2021-01-31_16-44-35.png)
-hello
+<img
+src=“imgs/SScreenshot _2021-01-31_16-44-35.png”
+raw=true
+style=“margin-right: 10px;”
+/>
 ```bash
 # 2) register fragements
 python run_system.py datasets/config.json --register
