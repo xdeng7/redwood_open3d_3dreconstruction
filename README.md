@@ -49,14 +49,14 @@ Four steps to build 3D reconstruction with your RGB-D data.
 * register
 * refine
 * integrate
-**Generated images from the converted pretrained FFHQ weight**
+
 ```bash
 # The tools is in examples
 cd Open3D/examples/python/reconstruction_system
 # 1) create fragements
 python run_system.py datasets/config.json --make
 ```
-
+**Generated images from the converted pretrained FFHQ weight**
 <img
 src=“imgs/SScreenshot _2021-01-31_16-44-35.png”
 raw=true
@@ -69,7 +69,7 @@ style=“margin-right: 10px;”
 # 2) register fragements
 python run_system.py datasets/config.json --register
 ```
-
+**Generated images from the converted pretrained FFHQ weight**
 ![img_register](imgs/Screenshot _2021-01-31_16-36-53.png)
 
 
