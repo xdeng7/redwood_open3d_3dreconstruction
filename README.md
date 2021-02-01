@@ -56,29 +56,38 @@ cd Open3D/examples/python/reconstruction_system
 # 1) create fragements
 python run_system.py datasets/config.json --make
 ```
+
 <img
 src=“imgs/SScreenshot _2021-01-31_16-44-35.png”
 raw=true
 style=“margin-right: 10px;”
 />
+
 **Generated images from the converted pretrained FFHQ weight**
+
 ```bash
 # 2) register fragements
 python run_system.py datasets/config.json --register
 ```
+
 ![img_register](imgs/Screenshot _2021-01-31_16-36-53.png)
 
+
 **Generated images from the converted pretrained FFHQ weight**
+
 ```bash
 # 3) refine fragements
 python run_system.py datasets/config.json --refine
 ```
 
+
 ![img_refine](imgs/Screenshot _2021-01-31_16-39-33.png)
+
 **Generated images from the converted pretrained FFHQ weight**
 
 ```bash
 # 3) integrate and create the 3d mesh scene 
 python run_system.py datasets/config.json --integrate
 ```
+
 ![img_integrate](imgs/Screenshot_2021-01-31.png)
