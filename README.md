@@ -88,14 +88,16 @@ python run_system.py datasets/config.json --integrate
 
 At last, the generated ply ojbect is in the 'datasets/YOUR_DATA_NAME/scene/integrated.ply'
 
-## Visualize the integrated 3D ojbect and compare to the ground truth
+## Visualization 3D objects
 [MeshLab](https://www.meshlab.net/#download) is suggested to view the 3D object. 
 
 Ubuntu 16.04 seems to have problem use MeshLab.
+
 Tested on Mac OS. 
 
 **The integraed mesh object is as follow**
-A .ply object is avaiable at [Google Drive]()
+
+The generated .ply object and ground truth are avaiable at [Google Drive]()
 <img src="imgs/open3d_integrated.png">
 
 **A comparison is made between integrated (colored) and ground truth (gray) as below**
