@@ -105,8 +105,7 @@ python run_system.py datasets/config.json --refine
 # 4) integrate and create the 3d mesh scene 
 python run_system.py datasets/config.json --integrate
 ```
-
-![img_integrate](imgs/Screenshot _2021-01-31_16-44-35.png)
+<img src="imgs/Screenshot _2021-01-31_16-44-35.png">
 
 At last, the generated 3d ojbect is located in the 'datasets/YOUR_DATA_NAME/scene/integrated.ply'
 
