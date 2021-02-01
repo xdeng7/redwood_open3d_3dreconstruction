@@ -56,6 +56,6 @@ cd Open3D/examples/python/reconstruction_system
 # 1) create fragements
 python run_system.py datasets/config.json --make
 ```
-![image](imgs/open3d_integrated.png)
+![image](imgs/Screenshot_2021-01-31.png)
 
 
