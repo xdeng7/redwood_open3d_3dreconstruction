@@ -108,7 +108,7 @@ python run_system.py datasets/config.json --integrate
 
 ![img_integrate](imgs/Screenshot_2021-01-31.png)
 
-At last, the generated 3d ojbect is in the 'datasets/YOUR_DATA_NAME/scene/integrated.ply'
+At last, the generated 3d ojbect is located in the 'datasets/YOUR_DATA_NAME/scene/integrated.ply'
 
 ## Visualize 3D objects
 [MeshLab](https://www.meshlab.net/#download) is suggested to view the 3D object. 
@@ -120,10 +120,12 @@ Tested on Mac OS.
 
 ***The generated 3D object (integrated.ply) and ground truth (0036.ply) are avaiable at [Google Drive](https://drive.google.com/drive/folders/1AIL9V-8edG8u4jDeRic_aD79XrX9mS9U?usp=sharing)***
 
-**The integraed mesh object viewed in different perspectives is as follow**
+Download the files and use your mouse to drag the angel to view the created 3D mesh object with MeshLab.
+
+The integraed mesh object viewed in different perspectives is as follow
 
 <img src="imgs/open3d_integrated.png">
 
-**A comparison is made between integrated (colored) and ground truth (gray) as below**
+A comparison is made between integrated (colored) and ground truth (gray) as below
 <img src="imgs/integrated_com1.jpeg">
 <img src="imgs/integrated_com2.jpeg">
