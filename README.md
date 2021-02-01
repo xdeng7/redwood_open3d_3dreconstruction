@@ -79,7 +79,7 @@ cd Open3D/examples/python/reconstruction_system
 python run_system.py datasets/config.json --make
 ```
 
-<img src="imgs/Screenshot _2021-01-31_16-44-35.png">
+<img src="imgs/Screenshot_2021-01-31.png">
 
 
 ```bash
@@ -106,12 +106,14 @@ python run_system.py datasets/config.json --refine
 python run_system.py datasets/config.json --integrate
 ```
 
-![img_integrate](imgs/Screenshot_2021-01-31.png)
+![img_integrate](imgs/Screenshot _2021-01-31_16-44-35.png)
 
 At last, the generated 3d ojbect is located in the 'datasets/YOUR_DATA_NAME/scene/integrated.ply'
 
 ## Visualize 3D objects
-[MeshLab](https://www.meshlab.net/#download) is suggested to view the 3D object. 
+[MeshLab](https://www.meshlab.net/#download) is suggested to install and use to view the 3D object. 
+
+You can use the mouse to drag to view the object in different perspectives.
 
 Ubuntu 16.04 seems to have problem using MeshLab.
 
