@@ -88,7 +88,7 @@ python run_system.py datasets/config.json --integrate
 
 At last, the generated ply ojbect is in the 'datasets/YOUR_DATA_NAME/scene/integrated.ply'
 
-## Visualization 3D objects
+## Visualize 3D objects
 [MeshLab](https://www.meshlab.net/#download) is suggested to view the 3D object. 
 
 Ubuntu 16.04 seems to have problem use MeshLab.
