@@ -44,10 +44,17 @@ Please follow the directory structure as follows:
 ```
 
 ## Quick start
-Four steps to build 3D reconstruction with your RGB-D data.
+Four steps to build 3D reconstruction with your RGB-D data. 
+* make
+* register
+* refine
+* integrate
+
 ```bash
 # The tools is in examples
 cd Open3D/examples/python/reconstruction_system
 # 1) create fragements
 python run_system.py datasets/config.json --make
 ```
+
+
