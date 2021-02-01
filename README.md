@@ -56,13 +56,13 @@ cd Open3D/examples/python/reconstruction_system
 # 1) create fragements
 python run_system.py datasets/config.json --make
 ```
-![images](imgs/SScreenshot _2021-01-31_16-44-35.png)
+![img_make](imgs/SScreenshot _2021-01-31_16-44-35.png)
 
 ```bash
 # 2) register fragements
 python run_system.py datasets/config.json --register
 ```
-![images](imgs/Screenshot _2021-01-31_16-36-53.png)
+![img_register](imgs/Screenshot _2021-01-31_16-36-53.png)
 
 
 ```bash
@@ -70,11 +70,11 @@ python run_system.py datasets/config.json --register
 python run_system.py datasets/config.json --refine
 ```
 
-![images](imgs/Screenshot _2021-01-31_16-39-33.png)
+![img_refine](imgs/Screenshot _2021-01-31_16-39-33.png)
 
 
 ```bash
 # 3) integrate and create the 3d mesh scene 
 python run_system.py datasets/config.json --integrate
 ```
-![images](imgs/Screenshot_2021-01-31.png)
+![img_integrate](imgs/Screenshot_2021-01-31.png)
