@@ -27,10 +27,9 @@ Data can be download at (http://redwood-data.org/3dscan/dataset.html).
 Unzip the .zip file, and put the data under the folder 'ROOT_DIR/Open3D/examples/python/reconstruction_system/datasets/YOUR_DATA_FOLDER'
 
 For exmaple, my data dir is '/home/xdeng7/Open3D/examples/python/reconstruction_system/datasets/redwood_0036 '
-Under the data folder, the depth and rgb data should placed into two different folders. An example of the dir organization is as follow:
-
-### More Datasets
-To play with other scenes presented in the paper, download the data [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1). Place the downloaded dataset according to the following directory structure:
+Under the data folder, the depth and rgb data should placed into two different folders. 
+Please download config.json available at [Google Drive]()
+Please follow the directory structure as follows:
 
 ```                                                                                         
 ├── datasets                                                                                                                                                                                                   
