@@ -24,3 +24,4 @@ $ sh requirements/install.sh
 ## Download data
 Any RGB-D dataset should work. In this repo, the open-sourced dataset Redwood is used.
 Data can be download at (http://redwood-data.org/3dscan/dataset.html).
+Unzip the .zip file, and put the data under the folder 'ROOT_DIR/Open3D/examples/python/reconstruction_system'
