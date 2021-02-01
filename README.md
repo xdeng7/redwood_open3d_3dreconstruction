@@ -17,8 +17,11 @@ This is implemented by using the open-sourced tools [Open3D](http://www.open3d.o
 # Clone the project to local machine
 $ git clone https://github.com/xdeng7/redwood_open3d_3dreconstruction.git
 
-# Set up dependency, need to install Anaconda first
-$ sh requirements/install.sh
+# Install packages, need to install Anaconda if it is not installed 
+$ conda create -n o3d_py3.6 python=3.6 Anaconda
+$ conda activate o3d_py3.6
+$ python3 -m pip install --user open3d-python
+$ conda install -c conda-forge opencv
 
 ```
 ## Download data
