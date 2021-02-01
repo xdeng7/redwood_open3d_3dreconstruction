@@ -48,7 +48,7 @@ Under the data folder, the depth and rgb data should placed into two different f
 
 ***!! Modify line 3 in config.json with your dataset folder name.***
 
-Please follow the directory structure as follows:
+Please follow the directory structure as follows to create your own dataset:
 
 
 ```   
