@@ -118,7 +118,7 @@ Ubuntu 16.04 seems to have problem using MeshLab.
 Tested on Mac OS. 
 
 
-The generated 3D object (integrated.ply) and ground truth (0036.ply) are avaiable at [Google Drive](https://drive.google.com/drive/folders/1AIL9V-8edG8u4jDeRic_aD79XrX9mS9U?usp=sharing)
+***The generated 3D object (integrated.ply) and ground truth (0036.ply) are avaiable at [Google Drive](https://drive.google.com/drive/folders/1AIL9V-8edG8u4jDeRic_aD79XrX9mS9U?usp=sharing)***
 
 **The integraed mesh object viewed in different perspectives is as follow**
 
