@@ -32,9 +32,15 @@ Any RGB-D dataset should work. In this repo, the open-sourced dataset Redwood is
 
 Data can be download at (http://redwood-data.org/3dscan/dataset.html).
 
-Unzip the .zip file, and put the data under the folder 'ROOT_DIR/Open3D/examples/python/reconstruction_system/datasets/YOUR_DATA_FOLDER'
+Unzip the .zip file, and put the data under the folder 
+```bash
+'ROOT_DIR/Open3D/examples/python/reconstruction_system/datasets/YOUR_DATA_FOLDER'
+```
 
-For exmaple, my data dir is '/home/xdeng7/Open3D/examples/python/reconstruction_system/datasets/redwood_0036'
+For exmaple, my data dir is 
+```bash
+'/home/xdeng7/Open3D/examples/python/reconstruction_system/datasets/redwood_0036'
+```
 
 Under the data folder, the depth and rgb data should placed into two different folders. 
 
