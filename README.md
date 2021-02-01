@@ -107,8 +107,11 @@ python run_system.py datasets/config.json --integrate
 ```
 <img src="imgs/Screenshot _2021-01-31_16-44-35.png">
 
-At last, the generated 3d ojbect is located in the 'datasets/YOUR_DATA_NAME/scene/integrated.ply'
+At last, the generated 3d ojbect is located in the 
 
+```bash
+'datasets/YOUR_DATA_NAME/scene/integrated.ply'
+```
 ## Visualize 3D objects
 [MeshLab](https://www.meshlab.net/#download) is suggested to install and use to view the 3D object. 
 
